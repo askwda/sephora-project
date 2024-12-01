@@ -86,3 +86,57 @@ h4{
 em{
     margin-top: 80px;
 }
+
+footer {
+    background-color: pink;
+    width: 1440px;
+    height: 350px;
+    padding: inherit;
+    
+    justify-content: space-between;
+}
+
+footer h3{
+     font-family: 'Dosis';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40.45px;
+    letter-spacing: 8px;
+    color: whitesmoke; 
+    padding-left: 638px;
+    padding-right: 638px;
+     padding-top: 59px;
+}
+
+footer nav {
+ display: flex;
+    gap: 57px;
+    padding-left: 572px;
+    padding-right: 571px;
+    padding-top: 45px;
+    
+    font-family: cursive;
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: -0.13px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+nav a{
+    color:#275075; 
+}
+.reseaux {
+    width: 164px;
+    height: 20px;
+    padding-top: 100px;
+    padding-left: 637px;
+    padding-right: 639px;
+    
+     display: flex;
+    justify-content: space-between;
+
+    
+
+}
