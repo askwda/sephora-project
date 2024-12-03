@@ -2,6 +2,87 @@
   margin:0px;
   padding:0px;
 }
+header{
+  display :flex;
+  justify-content: space-around;
+  padding: 18px;
+  background-color: #FFF0F5;
+}
+.box{
+    display:flex; 
+    margin-left: 100px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.pic img{
+    width: 140px;
+    margin:0px 50px 0px 50px;
+
+}
+.things{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+
+}
+header img{
+    width: 40px;
+    height: 40px; 
+}
+.amenities{
+    float:right; 
+    display:flex; 
+    align-items: center;
+    gap:25px; 
+}
+.amenities img {
+    height:28px; /* Ajustez la taille des icônes */
+    width: 28px; /* Taille uniforme des icônes */
+    cursor: pointer; /* Change le curseur au survol */
+  }
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.sec-1{
+    width:1440px; 
+    height: 600px; 
+    background-image: url("skincare\ pic2.jpg") ;
+    background-repeat: repeat-x;
+    background-size: contain;
+    display:flex; 
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    
+}
+.text{
+    
+    color: #FFE4E1;
+    text-align: left;
+    margin-left: 800px;
+    
+}
+.sec-1 button{
+    margin-left: 800px;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border:solid #FFE4E1;
+    background-color: transparent;
+    color:#FFE4E1; 
+}
+.sec-1 h5{
+    margin-bottom: 20px;
+}
+.sec-1 h1{
+    margin-bottom: 10px;
+}
 .makesusspecials{
     margin-top:60px;
 }
