@@ -62,19 +62,46 @@ a{
     display:flex;
     height:600px; 
     margin-top: 20px;
+    align-items: center;
+   
 }
 .left img{
     width:700px; 
     border-radius: 20px;
     height:600px; 
     margin-left: 20px;
+    position: relative;
+}
+.minis{
+    display:flex; 
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+    position:absolute; 
+    top:440px; 
+    left:600px; 
+
+}
+.minis img{
+    border-radius: 25%;
+    width:50px;
+    height:40px; 
+    opacity: 50%;
+
 }
 .right{
      width:720px; 
+     padding-bottom:49px;
 }
 .boite{
+    height:600px;
     margin-left: 45px; 
     margin-right:45px;
+    background-color:#F5F5F5;
+    opacity: 85%;
+    border-radius: 20px;
+    padding-left: 13px;
+
 }
 .line1{
     display:flex; 
@@ -87,17 +114,21 @@ a{
     font-weight: 1000;
     line-height: 60px;
     color: gray; 
+    margin-top: 25px;
 }
 .line1 img{
     width: 80px; 
     height:80px; 
+    margin-top: 25px;
     
 }
 .line2{
-    display:flex; 
-    gap: 100px; 
+    display:flex;  
     margin-bottom: 35px;
 
+}
+.line2 h3{
+    margin-right: 230px;
 }
 .line2 img{
     height:30px; 
@@ -110,10 +141,21 @@ a{
 .boite p{
     margin-bottom: 40px;
     font-family: "Roboto", sans-serif;
+    line-height: 30px;
+    color:#C0C0C0; 
+    
+}
+.trait {
+    height:1px; 
+    width:600px; 
+    background-color: black;
+    margin-bottom:20px;
+    border-radius: 25px;
 }
 .choice{
     display:flex; 
     gap:20px;
+    
 }
 select{
     width:170px; 
