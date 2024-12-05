@@ -375,7 +375,7 @@ p{
 
     .footer .row ul li {
       display: inline-block;
-      margin: 0px 30px;
+      margin: 0px 50px;
     }
 
 
@@ -409,6 +409,8 @@ p{
   transition: all 0.3s ease;  
   box-shadow: 0px 4px 6px pink;
     font-family: "Bebas Neue", sans-serif;
+    
+cursor: pointer;
 }
 
 .subscribe-button:hover {
@@ -420,6 +422,19 @@ p{
   outline: none;               
   box-shadow: 0 0 8px; 
 }
+
+.reseaux-niska {
+    justify-content: center; 
+    padding-top: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;   
+    gap: 60PX;  
+     cursor: pointer;
+}
+
+
+
 
 
 
