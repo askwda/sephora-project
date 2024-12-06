@@ -84,8 +84,25 @@ a{
 .sec-1 h1{
     margin-bottom: 10px;
 }
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap:50px;
+    height: 50px;
+    justify-content: center;
+}
+a{
+    position: relative;
+    cursor: pointer;
+    color: #ea9ab2;
+    font-size: 18px;
+    padding:0.5 rem 1rem;
+    text-decoration: none;
+}
+
 .groupe4{
-   margin-top:30px;
+    margin-top:30px;
     margin-bottom: 50px;
 }
 
@@ -93,19 +110,21 @@ a{
     margin-left: 75px;
     margin-right: 75px;
     font-family: "Quattrocento",sans-serif;
+    margin-bottom: 15px;
 }
 .groupe4 button{
     margin: 30px 15px 0px 15px;
     border-radius:15px;
-    background-color: #feeafa;
+    background-color: white;
     font-family: "Shadows Into Light",sans-serif;
     color:white;
     width:100px;
     height: 55px;
     font-size: 16PX;
-    border-color: deeppink
+    border-color: deeppink;
 }
 .services-container {
+  
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -129,10 +148,10 @@ a{
 .services-item p {
   font-size: 14px;
   line-height: 1.5;
-  color: black;
+  color: #333;
 }
-.makesusspecials{
-        margin-top:60px;
+.makesvsspecials{
+    margin-top:60px;
     margin-bottom: 0px;
     height: 700px;
 }
@@ -153,6 +172,7 @@ h4{
 }
 .productgeneral{
     display: flex;
+   
     height: 279px;
     gap:15px;
 }
@@ -200,7 +220,7 @@ h4{
     background: #ffb3c6;
     width:100px;
     height: 50px;
-   
+    transition:color 0.25s;
 }
 
 .nom p{
