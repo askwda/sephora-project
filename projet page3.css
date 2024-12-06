@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 header{
   display :flex;
   justify-content: space-around;
@@ -11,22 +10,23 @@ header{
 }
 .box{
     display:flex; 
-    margin-left: 100px;
+    margin-left: 170px;
+    height:60px;
 }
 nav {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 90px;
 }
 .pic img{
     width: 140px;
     margin:0px 50px 0px 50px;
-
+    height:60px;
 }
 .things{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 90px;
     
 
 }
@@ -49,6 +49,7 @@ a{
     text-decoration: none;
     color: grey;
 }
+
 .infos{
     height:35px; 
     margin: 15px 0px 15px 20px;
