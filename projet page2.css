@@ -49,8 +49,6 @@ a{
     text-decoration: none;
     color: grey;
 }
-
-    
 .titre{
     height:55px;
     text-align:center;
@@ -134,7 +132,7 @@ a{
 }
 .line2 img{
     height:30px; 
-    width:100px; 
+    width:120px; 
 }
 .line2 h3{
     font-family: "Roboto", sans-serif;
@@ -143,8 +141,9 @@ a{
 .boite p{
     margin-bottom: 40px;
     font-family: "Roboto", sans-serif;
-    line-height: 30px;
+    line-height: 29px;
     color:#C0C0C0; 
+    
     
 }
 .trait {
@@ -162,8 +161,12 @@ a{
 select{
     width:170px; 
     height:30px;
+    background-color:#F5F5F5;
+    box-shadow: 10px 5px 5px grey;
+    border-radius: 10px;
     
-}
+} 
+/*pourquoi body?*/
 body {
     font-family: Arial, sans-serif;
     margin: 0px;
