@@ -131,9 +131,9 @@ a{
   color: black;
 }
 .makesusspecials{
-    margin-top:60px;
-    margin-bottom:50px;
-  height:900px;
+        margin-top:60px;
+    margin-bottom: 0px;
+    height: 700px;
 }
 .explications p{
     line-height: 32px;
