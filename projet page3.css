@@ -49,7 +49,6 @@ a{
     text-decoration: none;
     color: grey;
 }
-
 .infos{
     height:35px; 
     margin: 15px 0px 15px 20px;
@@ -61,11 +60,12 @@ a{
     border-radius: 15px;
     border-color: #FFF0F5;
     padding-left: 15px;
-    
     opacity: 50%;
+    margin-bottom: 50px;
+    margin-left:700px;
 }
 
-.naming{
+.naming {
     display:flex; 
     gap:15px; 
     margin-bottom: 25px;
@@ -86,18 +86,33 @@ a{
 
 .case2{
     width:400px;
-    height:160px;
+    height:235px;
     border:  2px solid;
     border-radius: 15px;
     border-color: #FFF0F5;
     padding-left: 15px;
-    
-    opacity: 50%;
+    opacity: 85%;
+    display:flex; 
+    flex-direction: column;
+    margin-left: 45px;
 }
 .case2 img{
     width:330px;
-    height:110px; 
+    height:150px; 
     border-radius: 15px;
+}
+.snaming{
+    display:flex; 
+    gap:225px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.snaming h2{
+    font-family: "Dancing Script",sans-serif;
+}
+.snaming img{
+    height:20px; 
+    width:20px;
 }
 
 
