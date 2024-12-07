@@ -1,53 +1,54 @@
-*{
-  margin:0px;
-  padding:0px;
+* {
+  margin: 0;
+  padding: 0;
 }
 header{
-  display :flex;
-  justify-content: space-around;
-  padding: 18px;
-  background-color: #FFF0F5;
+display :flex;
+justify-content: space-around;
+padding: 18px;
+background-color: #FFF0F5;
 }
 .box{
-    display:flex; 
-    margin-left: 170px;
-    height:60px;
+  display:flex; 
+  margin-left: 170px;
+  height:60px;
 }
-nav {
-    display: flex;
-    align-items: center;
-    gap: 90px;
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 90px;
 }
 .pic img{
-    width: 140px;
-    margin:0px 50px 0px 50px;
-    height:60px;
+  width: 140px;
+  margin:0px 50px 0px 50px;
+  height:60px;
 }
 .things{
-    display: flex;
-    align-items: center;
-    gap: 90px;
-    
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  
 
 }
 header img{
-    width: 40px;
-    height: 40px; 
+  width: 40px;
+  height: 40px; 
 }
 .amenities{
-    float:right; 
-    display:flex; 
-    align-items: center;
-    gap:25px; 
+  float:right; 
+  display:flex; 
+  align-items: center;
+  gap:25px; 
 }
 .amenities img {
-    height:28px; /* Ajustez la taille des icônes */
-    width: 28px; /* Taille uniforme des icônes */
-    cursor: pointer; /* Change le curseur au survol */
-  }
-a{
-    text-decoration: none;
-    color: grey;
+  height:28px; /* Ajustez la taille des icônes */
+  width: 28px; /* Taille uniforme des icônes */
+  cursor: pointer; /* Change le curseur au survol */
+}
+header a{
+  text-decoration: none;
+  color: grey;
+  white-space: nowrap;
 }
 
 .sec-1{
