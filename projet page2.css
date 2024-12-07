@@ -412,8 +412,9 @@ p{
       font-family: "Bebas Neue", sans-serif;
       font-weight: 400;
       font-style: normal;
-      background: rgb(255, 190, 226);
-      background: linear-gradient(297deg, rgba(255, 190, 226, 1) 0%, rgba(255, 96, 160, 1) 50%, rgba(255, 222, 242, 1) 100%);
+
+    background: rgb(247,146,187);
+background: radial-gradient(circle, rgba(247,146,187,1) 0%, rgba(255,239,244,1) 100%);
     }
 
     .footer .row {
