@@ -116,14 +116,6 @@ a{
 }
 
 
-.case3{
-    display: flex;
-    width:300px;
-    padding-left: 15px;
-   
-    
-
-}
 .case3a{
         position:relative;
      
@@ -136,7 +128,8 @@ a{
 .case3b{
       border:  8px solid;
       border-color: #FFF0F5;
-      opacity: 30%;
+      opacity: 50%;
+      margin-left:50px;
 }
 
 .englobe{
