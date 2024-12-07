@@ -95,6 +95,8 @@ a{
     display:flex; 
     flex-direction: column;
     margin-left: 45px;
+    position: relative;
+    bottom:500px;
 }
 .case2 img{
     width:330px;
@@ -199,6 +201,9 @@ a{
     margin-bottom: 500px;
     opacity: 50%;
     box-shadow: 10px 5px 5px #FFF0F5;
+    position:relative;
+    bottom:670px;
+    rigth:350px:
 }
 
 .paying{
