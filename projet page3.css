@@ -130,7 +130,10 @@ a{
       border:  8px solid;
       border-color: #FFF0F5;
       opacity: 50%;
-      margin-left:350px;
+      margin-left:650px;
+      width:700px;
+      position:relative;
+      bottom:460px;
 }
 
 .englobe{
