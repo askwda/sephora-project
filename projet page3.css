@@ -118,18 +118,19 @@ a{
 
 .case3a{
         position:relative;
-     
-      bottom:200px;
-      opacity: 65%;
+     bottom:200px;
+      opacity: 50%;
     border-radius:15px;
       border:  8px solid;
       border-color: #FFF0F5;
+    width:550px;
+    padding:15px;
     }
 .case3b{
       border:  8px solid;
       border-color: #FFF0F5;
       opacity: 50%;
-      margin-left:50px;
+      margin-left:350px;
 }
 
 .englobe{
