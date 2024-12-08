@@ -329,5 +329,12 @@ cursor: pointer;
     gap: 60PX;  
      cursor: pointer;
 }
+.inscription p{
+  margin-right: 35px;
+  margin-bottom: 2px;
+  margin-top: 25px;
+  color:#ffedf7; 
+}
+
 
 
